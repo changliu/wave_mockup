@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B073BA62163290630010E9B4 /* wave.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B073BA61163290630010E9B4 /* wave.jpg */; };
+		B073BA661633241C0010E9B4 /* FriendsWaveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B073BA651633241C0010E9B4 /* FriendsWaveViewController.m */; };
+		B074657F16333CA300109B15 /* FriendDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B074657E16333CA300109B15 /* FriendDetailViewController.m */; };
+		B074658216333F1E00109B15 /* cafe borrone.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B074658116333F1E00109B15 /* cafe borrone.jpg */; };
 		B0C81B351630BD360082825F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C81B341630BD360082825F /* UIKit.framework */; };
 		B0C81B371630BD360082825F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C81B361630BD360082825F /* Foundation.framework */; };
 		B0C81B391630BD360082825F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C81B381630BD360082825F /* CoreGraphics.framework */; };
@@ -29,6 +33,14 @@
 		B0C81B691630BD370082825F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C81B361630BD360082825F /* Foundation.framework */; };
 		B0C81B711630BD370082825F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B0C81B6F1630BD370082825F /* InfoPlist.strings */; };
 		B0C81B741630BD370082825F /* WavePrototypeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C81B731630BD370082825F /* WavePrototypeTests.m */; };
+		B0C81B7F1630C0F60082825F /* WaveListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C81B7E1630C0F60082825F /* WaveListViewController.m */; };
+		B0EC2C211631067A0006D124 /* golden-gate-bridge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B0EC2C201631067A0006D124 /* golden-gate-bridge.jpg */; };
+		B0EC2C25163109D50006D124 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0EC2C24163109D50006D124 /* MapViewController.m */; };
+		B0EC2C2716310B840006D124 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0EC2C2616310B840006D124 /* MapKit.framework */; };
+		B0EC2C2916310BD10006D124 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0EC2C2816310BD10006D124 /* QuartzCore.framework */; };
+		B0EC2C2B16310BDC0006D124 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0EC2C2A16310BDC0006D124 /* GLKit.framework */; };
+		B0EC2C2E16310FAF0006D124 /* Smiley-cool-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B0EC2C2C16310FAF0006D124 /* Smiley-cool-icon.png */; };
+		B0EC2C2F16310FAF0006D124 /* too-sad-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B0EC2C2D16310FAF0006D124 /* too-sad-icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +54,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B073BA61163290630010E9B4 /* wave.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wave.jpg; sourceTree = "<group>"; };
+		B073BA641633241C0010E9B4 /* FriendsWaveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendsWaveViewController.h; sourceTree = "<group>"; };
+		B073BA651633241C0010E9B4 /* FriendsWaveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendsWaveViewController.m; sourceTree = "<group>"; };
+		B074657D16333CA300109B15 /* FriendDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendDetailViewController.h; sourceTree = "<group>"; };
+		B074657E16333CA300109B15 /* FriendDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendDetailViewController.m; sourceTree = "<group>"; };
+		B074658116333F1E00109B15 /* cafe borrone.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cafe borrone.jpg"; sourceTree = "<group>"; };
 		B0C81B301630BD360082825F /* WavePrototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WavePrototype.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0C81B341630BD360082825F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B0C81B361630BD360082825F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -71,6 +89,16 @@
 		B0C81B701630BD370082825F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B0C81B721630BD370082825F /* WavePrototypeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WavePrototypeTests.h; sourceTree = "<group>"; };
 		B0C81B731630BD370082825F /* WavePrototypeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WavePrototypeTests.m; sourceTree = "<group>"; };
+		B0C81B7D1630C0F60082825F /* WaveListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaveListViewController.h; sourceTree = "<group>"; };
+		B0C81B7E1630C0F60082825F /* WaveListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaveListViewController.m; sourceTree = "<group>"; };
+		B0EC2C201631067A0006D124 /* golden-gate-bridge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "golden-gate-bridge.jpg"; sourceTree = "<group>"; };
+		B0EC2C23163109D50006D124 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		B0EC2C24163109D50006D124 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		B0EC2C2616310B840006D124 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		B0EC2C2816310BD10006D124 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B0EC2C2A16310BDC0006D124 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		B0EC2C2C16310FAF0006D124 /* Smiley-cool-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Smiley-cool-icon.png"; sourceTree = "<group>"; };
+		B0EC2C2D16310FAF0006D124 /* too-sad-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "too-sad-icon.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +106,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0EC2C2B16310BDC0006D124 /* GLKit.framework in Frameworks */,
+				B0EC2C2916310BD10006D124 /* QuartzCore.framework in Frameworks */,
+				B0EC2C2716310B840006D124 /* MapKit.framework in Frameworks */,
 				B0C81B351630BD360082825F /* UIKit.framework in Frameworks */,
 				B0C81B371630BD360082825F /* Foundation.framework in Frameworks */,
 				B0C81B391630BD360082825F /* CoreGraphics.framework in Frameworks */,
@@ -100,6 +131,9 @@
 		B0C81B251630BD360082825F = {
 			isa = PBXGroup;
 			children = (
+				B0EC2C2A16310BDC0006D124 /* GLKit.framework */,
+				B0EC2C2816310BD10006D124 /* QuartzCore.framework */,
+				B0EC2C2616310B840006D124 /* MapKit.framework */,
 				B0C81B3A1630BD360082825F /* WavePrototype */,
 				B0C81B6C1630BD370082825F /* WavePrototypeTests */,
 				B0C81B331630BD360082825F /* Frameworks */,
@@ -130,6 +164,11 @@
 		B0C81B3A1630BD360082825F /* WavePrototype */ = {
 			isa = PBXGroup;
 			children = (
+				B074658116333F1E00109B15 /* cafe borrone.jpg */,
+				B073BA61163290630010E9B4 /* wave.jpg */,
+				B0EC2C2C16310FAF0006D124 /* Smiley-cool-icon.png */,
+				B0EC2C2D16310FAF0006D124 /* too-sad-icon.png */,
+				B0EC2C201631067A0006D124 /* golden-gate-bridge.jpg */,
 				B0C81B431630BD370082825F /* AppDelegate.h */,
 				B0C81B441630BD370082825F /* AppDelegate.m */,
 				B0C81B4C1630BD370082825F /* MainStoryboard_iPhone.storyboard */,
@@ -143,6 +182,14 @@
 				B0C81B5C1630BD370082825F /* second.png */,
 				B0C81B5E1630BD370082825F /* second@2x.png */,
 				B0C81B3B1630BD370082825F /* Supporting Files */,
+				B0C81B7D1630C0F60082825F /* WaveListViewController.h */,
+				B0C81B7E1630C0F60082825F /* WaveListViewController.m */,
+				B0EC2C23163109D50006D124 /* MapViewController.h */,
+				B0EC2C24163109D50006D124 /* MapViewController.m */,
+				B073BA641633241C0010E9B4 /* FriendsWaveViewController.h */,
+				B073BA651633241C0010E9B4 /* FriendsWaveViewController.m */,
+				B074657D16333CA300109B15 /* FriendDetailViewController.h */,
+				B074657E16333CA300109B15 /* FriendDetailViewController.m */,
 			);
 			path = WavePrototype;
 			sourceTree = "<group>";
@@ -261,6 +308,11 @@
 				B0C81B581630BD370082825F /* first@2x.png in Resources */,
 				B0C81B5D1630BD370082825F /* second.png in Resources */,
 				B0C81B5F1630BD370082825F /* second@2x.png in Resources */,
+				B0EC2C211631067A0006D124 /* golden-gate-bridge.jpg in Resources */,
+				B0EC2C2E16310FAF0006D124 /* Smiley-cool-icon.png in Resources */,
+				B0EC2C2F16310FAF0006D124 /* too-sad-icon.png in Resources */,
+				B073BA62163290630010E9B4 /* wave.jpg in Resources */,
+				B074658216333F1E00109B15 /* cafe borrone.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +351,10 @@
 				B0C81B451630BD370082825F /* AppDelegate.m in Sources */,
 				B0C81B541630BD370082825F /* FirstViewController.m in Sources */,
 				B0C81B5B1630BD370082825F /* SecondViewController.m in Sources */,
+				B0C81B7F1630C0F60082825F /* WaveListViewController.m in Sources */,
+				B0EC2C25163109D50006D124 /* MapViewController.m in Sources */,
+				B073BA661633241C0010E9B4 /* FriendsWaveViewController.m in Sources */,
+				B074657F16333CA300109B15 /* FriendDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,6 +539,7 @@
 				B0C81B791630BD370082825F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B0C81B7A1630BD370082825F /* Build configuration list for PBXNativeTarget "WavePrototypeTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +548,7 @@
 				B0C81B7C1630BD370082825F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
